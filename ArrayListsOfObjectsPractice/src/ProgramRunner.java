@@ -32,14 +32,18 @@ static ArrayList< Program > TVShows;
 			for (int i = 0; i < 5 ; i++)
 				{
 			TVShows.get(i).setNumberOfSeasonsAired(TVShows.get(i).getNumberOfSeasonsAired() + 1);
-			System.out.println(TVShows.get(i).getNumberOfSeasonsAired());
+			System.out.println(TVShows.get(i).getTitle() + ", " + TVShows.get(i).getNumberOfSeasonsAired());
 			
-			if (TVShows.get(i).getTitle().length() > 4 )
+				}
+			
+			for (int p = 0; p < 10; p++)
 				{
-					
+			if (Title.size() > 4 )
+				{
+					TVShows.get(p).setTitle(TVShows.);;
+					System.out.println(TVShows.get(p).getTitle());
 				}
 				}
-			
 			
 		}
 
