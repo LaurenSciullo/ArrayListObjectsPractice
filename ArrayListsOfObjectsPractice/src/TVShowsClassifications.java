@@ -1,12 +1,12 @@
 
-public class Program
+public class TVShowsClassifications
 	{
 
 		private String title;
 		private String genre;
 		private int numberOfSeasonsAired;
 		
-		public Program(String t, String g, int n)
+		public TVShowsClassifications(String t, String g, int n)
 		{
 			title = t;
 			genre = g;
