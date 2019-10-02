@@ -20,8 +20,8 @@ static ArrayList< TVShowsClassifications > TVShows;
 				printList();
 				removeLongestTitle();
 				printList();
-				//fewestAndMost();
-				//printList();
+				changeTitle();
+				printList();
 			}
 		
 		public static void printList()
@@ -64,9 +64,15 @@ static ArrayList< TVShowsClassifications > TVShows;
 			TVShows.remove(index);
 		}
 		
-		public static void fewestAndMost()
+		public static void changeTitle()
 		{
+			System.out.println("\nYour shows with a new title for the first:");
 			
+			for (int i = 0; i < 1; i++)
+				{
+					TVShows.get(i).setTitle(0, "Shawn Spencer & Co.");
+				}
+				
 		}
 
 	}
